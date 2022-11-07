@@ -1,0 +1,53 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --primary-color: #712700;
+    --primary-color--selected: #873509;
+    --cart-primary-color: #FF6600;
+    --cart-primary-color--disabled: #F7911E;
+    --text-color: #333;
+    --header-text-color: #404E65;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrapper {
+    font-size: 1.6rem;
+}
+.myform {
+    margin-top: 15px;
+}
+.myform-header{
+    display: flex;
+    justify-content: center;
+}
+.form-button{
+    display: flex;
+}
+.form-button button {
+    flex: 1;
+    padding: 10px 0px;
+}
